@@ -36,7 +36,7 @@ RUN npm run build
 #########
 
 # base image
-FROM nginx:1.20.2-alpine@sha256:016789c9a2d021b2dcb5e1c724c75ab0a57cc4e8cd7aab7bb28e69fec7c8c4fc
+FROM nginx:1.21.6-alpine@sha256:a74534e76ee1121d418fa7394ca930eb67440deda413848bc67c68138535b989
 
 # new
 # update nginx conf
