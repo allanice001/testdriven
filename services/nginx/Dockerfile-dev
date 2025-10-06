@@ -1,4 +1,4 @@
-FROM nginx:1.24.0-alpine@sha256:77e5d4a6ad906c5d3793764085706577fa705b1dc6f244ea0241c4b5e2155385
+FROM nginx:1.25.5-alpine@sha256:516475cc129da42866742567714ddc681e5eed7b9ee0b9e9c015e464b4221a00
 
 RUN rm /etc/nginx/conf.d/default.conf
 COPY /dev.conf /etc/nginx/conf.d
