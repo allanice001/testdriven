@@ -1,4 +1,4 @@
-FROM nginx:1.23.4-perl@sha256:0d3d64e80103dde5ec99b216e0ab733a2d33958a58e6dcb94a44bb0028ba84e0
+FROM nginx:1.24.0-perl@sha256:fc78d87401fdbadf36c638febdad36ae17dd51d7b5d70bb0a34d94e0daa3a0e1
 
 ENV SWAGGER_UI_VERSION 3.20.4
 ENV URL **None**
