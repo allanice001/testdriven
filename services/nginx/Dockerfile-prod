@@ -1,4 +1,4 @@
-FROM nginx:1.17.10-alpine@sha256:763e7f0188e378fef0c761854552c70bbd817555dc4de029681a2e972e25e30e
+FROM nginx:1.18.0-alpine@sha256:93baf2ec1bfefd04d29eb070900dd5d79b0f79863653453397e55a5b663a6cb1
 
 RUN rm /etc/nginx/conf.d/default.conf
 COPY /prod.conf /etc/nginx/conf.d
