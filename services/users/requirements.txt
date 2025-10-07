@@ -9,4 +9,4 @@ Flask-SQLAlchemy==2.5.1
 Flask-Testing==0.8.1
 gunicorn==19.9.0
 psycopg2-binary==2.9.10
-pyjwt==1.7.1
+pyjwt==2.4.0
