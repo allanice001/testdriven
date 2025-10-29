@@ -36,7 +36,7 @@ RUN npm run build
 #########
 
 # base image
-FROM nginx:1.29.1-alpine@sha256:42a516af16b852e33b7682d5ef8acbd5d13fe08fecadc7ed98605ba5e3b26ab8
+FROM nginx:1.29.3-alpine@sha256:b23ea6c10814fccb32ac20485c74168ebefa1c3544a3dddfcb33494d24270df8
 
 # update nginx conf
 RUN rm -rf /etc/nginx/conf.d
