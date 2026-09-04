@@ -1,5 +1,5 @@
 # base image
-FROM postgres:11.22-alpine@sha256:33a78858869c44785eee197a60cf281c5c80376bb725992f092ec5e7e072f3de
+FROM postgres:16.15-alpine@sha256:cf78e76683b9ca8c5733cbbdce6c9262b45b6767934dd0a95e671f9a0fc20685
 
 # run create.sql on init
 ADD create.sql /docker-entrypoint-initdb.d
